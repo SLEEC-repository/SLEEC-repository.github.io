@@ -1,0 +1,347 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.home-top-navbar-with-different-logo-placement-mockup2 {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.home-left-navbar {
+  top: 322px;
+  left: 0px;
+  width: 339px;
+  height: 437px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.home-text10 {
+  top: 341px;
+  left: 53px;
+  color: rgba(104, 71, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-text14 {
+  top: 208px;
+  left: 53px;
+  color: rgba(104, 71, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-text18 {
+  top: 123px;
+  left: 53px;
+  color: rgba(104, 71, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-description-button {
+  top: 0px;
+  left: 44px;
+  width: 234px;
+  height: 86px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: 84px;
+  background-color: rgba(104, 71, 255, 1);
+}
+ 
+.home-text19 {
+  top: 19px;
+  left: 9px;
+  color: rgba(231, 214, 251, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-selector {
+  top: 23px;
+  left: 4px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.home-text20 {
+  top: 332px;
+  left: 505px;
+  color: rgba(0, 0, 0, 1);
+  width: 1028px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-top-navbar {
+  top: 73px;
+  left: 335px;
+  width: 1249px;
+  height: 193px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.home-aspen-button {
+  top: 59.38461685180664px;
+  left: -1.8189894035458565e-12px;
+  width: 340px;
+  height: 133.61538696289062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.home-background1 {
+  top: 53.81715774536133px;
+  left: -1.8189894035458565e-12px;
+  width: 340px;
+  height: 80px;
+  position: absolute;
+  border-radius: 84px;
+}
+ 
+.home-overfill1 {
+  top: 0px;
+  left: 0px;
+  width: 340px;
+  height: 97px;
+  position: absolute;
+}
+ 
+.home-text26 {
+  top: 71.44696807861328px;
+  left: 104px;
+  color: rgba(104, 71, 255, 1);
+  width: 132px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-text27 {
+  top: 53.81730651855469px;
+  left: 973px;
+  color: rgba(104, 71, 255, 1);
+  width: 276px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-text28 {
+  top: 53.81730651855469px;
+  left: 673px;
+  color: rgba(104, 71, 255, 1);
+  width: 185px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-text29 {
+  top: 53.81730651855469px;
+  left: 434px;
+  color: rgba(104, 71, 255, 1);
+  width: 124px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-home-button {
+  top: 0px;
+  left: 0px;
+  width: 340px;
+  height: 113.20191955566406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.home-background3 {
+  top: 38.043270111083984px;
+  left: -1.8189894035458565e-12px;
+  width: 340px;
+  height: 75px;
+  position: absolute;
+  border-radius: 84px;
+}
+ 
+.home-overfill2 {
+  top: 0px;
+  left: 0px;
+  width: 340px;
+  height: 75px;
+  position: absolute;
+}
+ 
+.home-text30 {
+  top: 53.81730651855469px;
+  left: 20px;
+  color: rgba(247, 218, 253, 1);
+  width: 299px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-top-header {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.home-background2 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 86px;
+  position: absolute;
+}
+ 
+.home-text31 {
+  top: 5px;
+  left: 688px;
+  color: rgba(231, 214, 251, 1);
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.home-logogroup {
+  top: 856px;
+  left: 1740px;
+  width: 180px;
+  height: 224px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.home-footer {
+  top: 181px;
+  left: 8px;
+  width: 172px;
+  height: 43px;
+  position: absolute;
+  border-radius: 84px 0 0;
+}
+ 
+.home-logo {
+  top: 0px;
+  left: 0px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+}
