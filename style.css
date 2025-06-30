@@ -8,6 +8,59 @@
     flex-direction: column;
 }
 
+.top-header {
+    position: fixed;
+    width: 100%;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6847ff;
+}
+
+.title {
+    position: relative;
+    color: #f7dafd;
+    font-size: 64px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.top-navbar {
+    position: fixed;
+    width: 100%;
+    height: 186px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+.top-nav-item {
+    position: relative;
+    top: 41px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #6847ff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -40px;
+}
+
+.top-nav-item.selected {
+    color: #f7dafd;
+    background-color: #6847ff;
+    border-radius: 0px 0px 42px 42px;
+}
+
 .logogroup {
     position: fixed;
     bottom: 0;
@@ -30,7 +83,7 @@
     object-fit: cover;
 }
 
-.case-study-page .description {
+.description {
     position: absolute;
     width: 1028px;
     top: 340px;
@@ -43,15 +96,15 @@
     line-height: normal;
 }
 
-.case-study-page .left-navbar {
-    position: absolute;
+.left-navbar {
+    position: fixed;
     width: 319px;
     height: 437px;
     top: 341px;
     left: 44px;
 }
 
-.case-study-page .formalised {
+.formalised {
     position: absolute;
     top: 341px;
     left: 27px;
@@ -63,7 +116,7 @@
     line-height: normal;
 }
 
-.case-study-page .normative {
+.normative {
     position: absolute;
     top: 208px;
     left: 27px;
@@ -75,7 +128,7 @@
     line-height: normal;
 }
 
-.case-study-page .text-wrapper {
+.text-wrapper {
     position: absolute;
     top: 123px;
     left: 27px;
@@ -88,7 +141,7 @@
     white-space: nowrap;
 }
 
-.case-study-page .description-button {
+.description-button {
     position: absolute;
     width: 272px;
     height: 86px;
@@ -96,7 +149,7 @@
     left: 0;
 }
 
-.case-study-page .overlap-group {
+.overlap-group {
     position: relative;
     width: 270px;
     height: 86px;
@@ -104,7 +157,7 @@
     border-radius: 84px;
 }
 
-.case-study-page .text {
+.text {
     position: absolute;
     top: 19px;
     left: 27px;
@@ -117,120 +170,10 @@
     white-space: nowrap;
 }
 
-.case-study-page .selector {
-    position: absolute;
+.selector {
+    position: fixed;
     width: 30px;
     height: 35px;
     top: 367px;
     left: 10px;
-}
-
-.case-study-page .top-navbar {
-    position: fixed;
-    width: 100vw;
-    height: 186px;
-    display: flex;
-    gap: 86px;
-    justify-content: center;
-    align-items: center;
-    gap: 115px;
-}
-
-.case-study-page .top-nav-item {
-    position: relative;
-    top: 41px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #6847ff;
-    font-size: 48px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-    display: inline-block;
-}
-
-.case-study-page .top-nav-item.selected {
-    color: #f7dafd;
-    background-color: #6847ff;
-    border-radius: 0px 0px 42px 42px;
-}
-
-.case-study-page .div-2 {
-    position: absolute;
-    width: 343px;
-    height: 186px;
-    top: 0;
-    left: 0;
-}
-
-.case-study-page .div-wrapper {
-    position: relative;
-    width: 341px;
-    height: 186px;
-    background-color: #e7d6fb;
-    border-radius: 0px 0px 42px 42px;
-}
-
-.case-study-page .text-2 {
-    width: 98px;
-    top: 119px;
-    left: 122px;
-    color: #6847ff;
-    font-size: 40px;
-    position: absolute;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.case-study-page .case-studies-button {
-    position: absolute;
-    width: 343px;
-    height: 116px;
-    top: 0;
-    left: 0;
-}
-
-.case-study-page .background {
-    position: absolute;
-    width: 341px;
-    height: 100px;
-    top: 0;
-    left: 0;
-    background-color: #6847ff;
-    border-radius: 0px 0px 42px 42px;
-}
-
-.case-study-page .text-3 {
-    width: 299px;
-    top: 41px;
-    left: 21px;
-    color: #f7dafd;
-    font-size: 48px;
-    position: absolute;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.case-study-page .top-header {
-    position: fixed;
-    width: 100%;
-    height: 86px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #6847ff;
-}
-
-.case-study-page .title {
-    position: relative;
-    color: #f7dafd;
-    font-size: 64px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
 }
