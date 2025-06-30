@@ -4,28 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="case-study-page">
-      <div class="top-header">
-        <div class="title">SLEEC Repository</div>
-      </div>
-      <ul class="top-navbar">
-        <li class="top-nav-item selected">Case Studies</li>
-        <li class="top-nav-item">Publications</li>
-        <li class="top-nav-item">Projects</li>
-        <li class="top-nav-item">Team</li>
-      </ul>
-      <ul class="left-navbar">
-        <li class="formalised">Formalised<br />Requirements</li>
-        <li class="normative">Normative<br />Requirements</li>
-        <li class="text-wrapper">Characteristics</li>
-        <li class="description-button">
-          <div class="overlap-group"><div class="text">Description</div></div>
-        </li>
-      </ul>
-      <img class="selector" src="img/selector.svg" />
       <p class="description">
         With a rapidly ageing population, the world is facing a social care crisis (Appleby, 2009). Without a step
         change in the provision of social care, especially to the elderly, the increase in the budgets and
@@ -52,10 +34,27 @@
         track the user’s progress with the meal preparation task, so that instructions are
         delivered progressively and repeated if necessary; to handle disruptions safely, etc.
       </p>
+      <div class="header">
+        <div class="title">SLEEC Repository</div>
+      </div>
+      <ul class="top-navbar">
+        <li class="top-nav-item selected">Case Studies</li>
+        <li class="top-nav-item">Team</li>
+        <li class="top-nav-item">Projects</li>
+        <li class="top-nav-item">Publications</li>
+      </ul>
+      <ul class="left-navbar">
+        <li class="left-nav-item selected">Description</li>
+        <li class="left-nav-item">Characteristics</li>
+        <li class="left-nav-item">Normative<br />Requirements</li>
+        <li class="left-nav-item">Formalised<br />Requirements</li>
+      </ul>
+      <img class="selector" src="img/selector.svg" />
     </div>
     <div class="logogroup">
       <img class="logo" src="img/logo.png" />
       <div class="underlogo"></div>
     </div>
+    <script src="left-navbar.js"></script>
   </body>
 </html>
