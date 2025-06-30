@@ -38,6 +38,10 @@
     gap: 55px;
 }
 
+.top-navbar a {
+	color: inherit;
+}
+
 .top-nav-item {
     position: relative;
     top: 41px;
