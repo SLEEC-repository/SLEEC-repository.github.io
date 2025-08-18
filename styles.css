@@ -126,6 +126,16 @@ a {
     overflow-y: auto;
 }
 
+.case-studies {
+	display: flex;
+	flex-direction: column;
+}
+
+.case-study {
+	display: flex;
+	
+}
+
 .description {
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
