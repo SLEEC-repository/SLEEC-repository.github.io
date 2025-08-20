@@ -8,12 +8,6 @@
 
 html, body {
     margin: 0px;
-	height: 100vh;
-	width: 100vw;
-}
-
-body {
-	overflow-y: auto;
 }
 
 a {
@@ -196,7 +190,7 @@ a {
 }
 
 .description {
-    color: #000000;
+    color: black;
     font-size: 40px;
 }
 
@@ -230,4 +224,33 @@ a {
     position: fixed;
     top: 367px;
     left: 10px;
+}
+
+.publications {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	top: 200px;
+}
+
+.publications div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+}
+
+.publications strong {
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+
+.publications ul {
+	width: 80%;
+}
+
+.publications ul li {
+	font-size: 1.5rem;
+	font-weight: 300;
 }
