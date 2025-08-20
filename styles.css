@@ -7,7 +7,17 @@
 }
 
 html, body {
-    margin: 0px;
+    margin: 0;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+
+p {
+	font-size: 1.5rem;
+	font-weight: 300;
 }
 
 a {
@@ -45,6 +55,7 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #6847ff;
+	z-index: 10;
 }
 
 .title {
@@ -65,6 +76,7 @@ a {
 	margin: 0;
 	background-color: white;
 	transition: top 0.3s;
+	z-index: 10;
 }
 
 .top-navbar a {
@@ -98,7 +110,6 @@ a {
 	justify-content: center;
 	background-color: #e7d6fb;
 	top: 200px;
-	z-index: -1;
 }
 
 .case-studies-description {
@@ -107,7 +118,6 @@ a {
 	margin: 1rem;
     color: #000000;
     font-size: 1.5rem;
-	font-weight: 300;
 }
 
 .case-study-page-description-textbox {
@@ -134,7 +144,6 @@ a {
 	align-items: center;
 	gap: 35px;
 	padding-left: 0;
-	z-index: -1;
 }
 
 .case-study {
@@ -157,9 +166,7 @@ a {
 	padding-left: 20px;
 }
 
-.case-study-info h3 {
-	font-size: 2.5rem;
-	font-weight: 300;
+.case-study-info h1 {
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 1;
@@ -169,8 +176,6 @@ a {
 }
 
 .case-study-info p {
-	font-size: 1.5rem;
-	font-weight: 300;
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 4;
@@ -241,11 +246,6 @@ a {
 	width: 100vw;
 }
 
-.publications strong {
-	font-size: 2.5rem;
-	font-weight: 300;
-}
-
 .publications ul {
 	width: 80%;
 }
@@ -254,3 +254,22 @@ a {
 	font-size: 1.5rem;
 	font-weight: 300;
 }
+
+.tutorials {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	top: 200px;
+}
+
+.tutorials img {
+	width: 40%;
+	padding-bottom: 10px;
+}
+
+.tutorials p {
+	width: 40%;
+	text-align: center;
+}
+
