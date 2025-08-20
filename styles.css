@@ -68,9 +68,9 @@ a {
 	gap: 55px;
 	top: 85px;
 	padding-left: 0;
-	height: 120px;
 	margin: 0;
 	background-color: white;
+	transition: top 0.3s;
 }
 
 .top-navbar a {
@@ -98,15 +98,13 @@ a {
 }
 
 .case-studies-description-textbox {
-	position: fixed;
+	position: relative;
     width: 100%;
 	display: flex;
 	justify-content: center;
 	background-color: #e7d6fb;
-	max-height: 30vh;
-	overflow-y: auto;
 	top: 200px;
-	margin-bottom: 20px;
+	z-index: -1;
 }
 
 .case-studies-description {

@@ -10,7 +10,7 @@
       <img class="logo" src="/assets/images/logo.png" />
       <div class="underlogo"></div>
     </div>
-	<ul class="top-navbar">
+	<ul id="top-navbar" class="top-navbar">
 	  <li class="{% if page.title == 'Case Studies' %}top-nav-item selected{% else %}top-nav-item{% endif %}"><a href="/index.html">Case Studies</a></li>
 	  <li class="{% if page.title == 'Team' %}top-nav-item selected{% else %}top-nav-item{% endif %}"><a href="/team.html">Team</a></li>
 	  <li class="{% if page.title == 'Projects' %}top-nav-item selected{% else %}top-nav-item{% endif %}"><a href="/projects.html">Projects</a></li>
@@ -22,3 +22,5 @@
 	{{ content }}
   </body>
 </html>
+
+ <script src="/assets/js/top-navbar.js"></script> 
