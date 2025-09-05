@@ -3,12 +3,14 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="/assets/css/globals.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+	<link rel="stylesheet" href="/assets/css/components.css" />
   </head>
   <body>
-	<div class="logogroup">
-      <img class="logo" src="/assets/images/logo.png" />
-      <div class="underlogo"></div>
+	<div class="logo">
+      <img src="/assets/images/logo.png" alt="Logo" />
+      <div></div>
     </div>
 	<ul id="top-navbar" class="top-navbar">
 	  <li class="{% if page.title == 'Info' %}top-nav-item selected{% else %}top-nav-item{% endif %}"><a href="/">Info</a></li>

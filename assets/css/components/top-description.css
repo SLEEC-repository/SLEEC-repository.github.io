@@ -1,0 +1,14 @@
+.top-description {
+	position: relative;
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #e7d6fb;
+	top: 200px;
+}
+
+.top-description p {
+	width: 55%;
+	text-align: center;
+	margin: 1rem;
+}

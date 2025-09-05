@@ -1,108 +1,3 @@
-* {
-    box-sizing: border-box;
-	-webkit-font-smoothing: antialiased;
-	font-family: "Inter-Regular", Helvetica;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-html, body {
-    margin: 0;
-}
-
-h1 {
-	font-size: 2.5rem;
-	font-weight: 300;
-}
-
-p {
-	font-size: 1.5rem;
-	font-weight: 300;
-}
-
-a {
-    text-decoration: none;
-}
-
-.logogroup {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.underlogo {
-    width: 172px;
-    height: 43px;
-    background-color: #f7dafd;
-    border-radius: 84px 0px 0px 0px;
-}
-
-.logo {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-}
-
-.header {
-    position: fixed;
-	top: 0;
-    width: 100%;
-    height: 85px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #6847ff;
-	z-index: 10;
-}
-
-.title {
-    position: relative;
-    color: #f7dafd;
-    font-size: 4rem;
-	font-weight: 400;
-}
-
-.top-navbar {
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-	gap: 55px;
-	top: 85px;
-	padding-left: 0;
-	margin: 0;
-	background-color: white;
-	transition: top 0.3s;
-	z-index: 10;
-}
-
-.top-navbar a {
-	color: inherit;
-}
-
-.top-nav-item {
-    position: relative;
-    color: #6847ff;
-    font-size: 3rem;
-	font-weight: 400;
-    white-space: nowrap;
-	height: 110px;
-    display: inline-block;
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: -18px;
-}
-
-.top-nav-item.selected {
-    color: #f7dafd;
-    background-color: #6847ff;
-    border-radius: 0px 0px 42px 42px;
-}
-
 .case-study-page-description-textbox {
     position: fixed;
     top: 280px;
@@ -249,7 +144,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 100vw;
 }
 
 .publications ul {
@@ -257,6 +151,109 @@ a {
 }
 
 .publications ul li {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.team {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	top: 200px;
+}
+
+/* .team-members { */
+/* 	top: 200px; */
+/* 	position: absolute; */
+/* 	display: flex; */
+/* 	flex-direction: column; */
+/* 	align-items: center; */
+/* 	gap: 35px; */
+/* 	/\*width: 80%;*\/ */
+/* 	padding-left: 0; */
+/* } */
+
+.team-members {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 35px;
+	flex-shrink: 0;
+	padding-left: 0;
+	width: 40%;
+}
+
+.team-members li {
+	list-style-type: none;
+}
+
+.team-member {
+	display: flex;
+}
+
+.team-member-container {
+	height: 14rem;
+	width: 21rem;
+	flex: none;
+	overflow: hidden;
+	display: block;
+}
+
+/* default: scale image to match height, keep aspect ratio */
+.team-member-container img {
+	height: 100%;           /* ensure correct height and proportional width */
+	width: 100%;
+	display: block;
+}
+
+/* if after scaling width is too small, stretch to fill width */
+.team-member-container.fill img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;       /* stretches image to fill both dims */
+}
+
+/* if after scaling width is too large, crop overflow */
+.team-member-container.crop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* fills and crops excess width */
+}
+
+.team-member-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 0;
+	padding-left: 20px;
+}
+
+.team-member-info h1 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.team-member-info p {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+	margin-top: -15px;
+}
+
+.team-member-info ul {
+	display: flex;
+	gap: 40px;
+	padding-left: 0;
+}
+
+.team-member-info ul a {
 	font-size: 1.5rem;
 	font-weight: 300;
 }
@@ -279,19 +276,3 @@ a {
 	text-align: center;
 }
 
-.info {
-	position: relative;
-    width: 100%;
-	display: flex;
-	justify-content: center;
-	background-color: #e7d6fb;
-	top: 200px;
-}
-
-.info p {
-	width: 55%;
-	text-align: center;
-	margin: 1rem;
-    color: #000000;
-    font-size: 1.5rem;
-}

@@ -1,0 +1,37 @@
+.top-navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+	gap: 55px;
+	top: 85px;
+	padding-left: 0;
+	margin: 0;
+	background-color: white;
+	transition: top 0.3s;
+	z-index: 10;
+}
+
+.top-navbar a {
+	color: inherit;
+}
+
+.top-nav-item {
+    position: relative;
+    color: #6847ff;
+    font-size: 3rem;
+	font-weight: 400;
+    white-space: nowrap;
+	height: 110px;
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -18px;
+}
+
+.top-nav-item.selected {
+    color: #f7dafd;
+    background-color: #6847ff;
+    border-radius: 0 0 42px 42px;
+}
