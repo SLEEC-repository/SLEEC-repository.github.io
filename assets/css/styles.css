@@ -7,66 +7,6 @@
     overflow-y: auto;
 }
 
-.case-studies-page {
-    display: flex;
-    justify-content: flex-start;
-	align-items: center;
-    flex-direction: column;
-}
-
-.case-studies {
-	top: 315px;
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 35px;
-	padding-left: 0;
-}
-
-.case-study {
-	display: flex;
-	width: 80%;
-}
-
-.case-study-container {
-	height: 14rem;
-	width: 21rem;
-	flex: none;
-	overflow: hidden;
-	display: block;
-}
-
-/* default: scale image to match height, keep aspect ratio */
-.case-study-container img {
-	height: 100%;           /* ensure correct height and proportional width */
-	width: 100%;
-	display: block;
-}
-
-/* if after scaling width is too small, stretch to fill width */
-.case-study-container.fill img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;       /* stretches image to fill both dims */
-}
-
-/* if after scaling width is too large, crop overflow */
-.case-study-container.crop img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;      /* fills and crops excess width */
-}
-
-.case-study-info {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: space-between;
-	padding: 0;
-	padding-left: 20px;
-}
-
 .case-study-info h1 {
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
@@ -93,6 +33,13 @@
 .case-study-info ul a {
 	font-size: 1.5rem;
 	font-weight: 300;
+}
+
+.case-studies-page {
+    display: flex;
+    justify-content: flex-start;
+	align-items: center;
+    flex-direction: column;
 }
 
 .description {
@@ -161,101 +108,6 @@
 	justify-content: center;
 	width: 100%;
 	top: 200px;
-}
-
-/* .team-members { */
-/* 	top: 200px; */
-/* 	position: absolute; */
-/* 	display: flex; */
-/* 	flex-direction: column; */
-/* 	align-items: center; */
-/* 	gap: 35px; */
-/* 	/\*width: 80%;*\/ */
-/* 	padding-left: 0; */
-/* } */
-
-.team-members {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 35px;
-	flex-shrink: 0;
-	padding-left: 0;
-	width: 40%;
-}
-
-.team-members li {
-	list-style-type: none;
-}
-
-.team-member {
-	display: flex;
-}
-
-.team-member-container {
-	height: 14rem;
-	width: 21rem;
-	flex: none;
-	overflow: hidden;
-	display: block;
-}
-
-/* default: scale image to match height, keep aspect ratio */
-.team-member-container img {
-	height: 100%;           /* ensure correct height and proportional width */
-	width: 100%;
-	display: block;
-}
-
-/* if after scaling width is too small, stretch to fill width */
-.team-member-container.fill img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;       /* stretches image to fill both dims */
-}
-
-/* if after scaling width is too large, crop overflow */
-.team-member-container.crop img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;      /* fills and crops excess width */
-}
-
-.team-member-info {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: space-between;
-	padding: 0;
-	padding-left: 20px;
-}
-
-.team-member-info h1 {
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 1;
-	overflow: hidden;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-.team-member-info p {
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 4;
-	overflow: hidden;
-	margin-top: -15px;
-}
-
-.team-member-info ul {
-	display: flex;
-	gap: 40px;
-	padding-left: 0;
-}
-
-.team-member-info ul a {
-	font-size: 1.5rem;
-	font-weight: 300;
 }
 
 .tutorials {

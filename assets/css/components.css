@@ -1,4 +1,7 @@
+@import "components/case-studies-list.css";
+@import "components/complex-list.css";
 @import "components/header.css";
+@import "components/team-list.css";
 @import "components/top-navbar.css";
 @import "components/top-description.css";
 @import "components/logo.css";

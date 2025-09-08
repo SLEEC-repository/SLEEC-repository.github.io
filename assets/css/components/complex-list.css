@@ -1,0 +1,77 @@
+.complex-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 35px;
+	padding-left: 0
+}
+
+.complex-list-elem {
+	display: flex;
+}
+
+.complex-list-elem-container {
+	height: 14rem;
+	width: 21rem;
+	flex: none;
+	overflow: hidden;
+	display: block;
+}
+
+/* default: scale image to match height, keep aspect ratio */
+.complex-list-elem-container img {
+	height: 100%;           /* ensure correct height and proportional width */
+	width: 100%;
+	display: block;
+}
+
+/* if after scaling width is too small, stretch to fill width */
+.complex-list-elem-container.fill img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;       /* stretches image to fill both dims */
+}
+
+/* if after scaling width is too large, crop overflow */
+.complex-list-elem-container.crop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* fills and crops excess width */
+}
+
+.complex-list-elem-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 0;
+	padding-left: 20px;
+}
+
+.complex-list-elem-info-header {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.complex-list-elem-info-description {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+	margin-top: -15px;
+}
+
+.complex-list-elem-info-link-list {
+	display: flex;
+	gap: 40px;
+	padding-left: 0;
+}
+
+.complex-list-elem-info-link-list-link {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
