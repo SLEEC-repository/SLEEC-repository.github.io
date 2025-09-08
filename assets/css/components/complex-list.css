@@ -25,14 +25,14 @@
 	display: block;
 }
 
-/* if after scaling width is too small, stretch to fill width */
+/* if after scaling width is too small, stretch to fill width (unused) */
 .complex-list-elem-container.fill img {
   width: 100%;
   height: 100%;
   object-fit: fill;       /* stretches image to fill both dims */
 }
 
-/* if after scaling width is too large, crop overflow */
+/* if after scaling width is too large, crop overflow (unused) */
 .complex-list-elem-container.crop img {
   width: 100%;
   height: 100%;

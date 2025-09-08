@@ -1,0 +1,8 @@
+.projects-list {
+	top: 200px;
+	position: absolute;
+}
+
+.projects-list-elem {
+	width: 80%;
+}
