@@ -65,7 +65,7 @@
 	align-items: center;
 }
 
-.team {
+.team-lists-container {
 	position: absolute;
 	display: flex;
 	justify-content: center;
