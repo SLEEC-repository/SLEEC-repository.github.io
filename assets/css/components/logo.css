@@ -8,14 +8,14 @@
 }
 
 .logo img {
-    width: 180px;
-    height: 180px;
+    width: 7vw;
+    height: auto;
     object-fit: cover;
 }
 
 .logo div {
-    width: 172px;
-    height: 43px;
+    width: calc(7vw - 3px);
+    height: 3vh;
     background-color: #f7dafd;
     border-radius: 84px 0px 0px 0px;
 }

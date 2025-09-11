@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-	gap: 55px;
+	gap: 35px;
 	top: 85px;
 	padding-left: 0;
 	margin: 0;
@@ -19,15 +19,15 @@
 .top-nav-item {
     position: relative;
     color: #6847ff;
-    font-size: 3rem;
+    font-size: calc(1.6vw + 0.4vh);
 	font-weight: 400;
     white-space: nowrap;
-	height: 110px;
+	height: calc(2vw + 4.2vh);
     display: inline-block;
-    padding-top: 40px;
+    padding-top: 3vh;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: -18px;
+    margin-top: -1.4vh;
 }
 
 .top-nav-item.selected {
