@@ -69,6 +69,7 @@
 	position: absolute;
 	display: flex;
 	justify-content: center;
+	gap: 47.5px;
 	width: 100%;
 	top: 200px;
 }
@@ -78,7 +79,15 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 47.5px;
 	top: 200px;
+}
+
+.tutorial-container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .tutorials-image {
@@ -88,6 +97,7 @@
 
 .tutorials-description {
 	width: 40%;
-	text-align: center;
+	text-align: justify;
+	text-align-last: center;
 }
 

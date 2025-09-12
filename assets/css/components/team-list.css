@@ -1,8 +1,8 @@
 .team-list {
-	flex-shrink: 0;
 	width: 40%;
 }
 
 .team-list-header-elem {
 	list-style-type: none;
 }
+
