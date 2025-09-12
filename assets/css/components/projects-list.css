@@ -1,6 +1,7 @@
 .projects-list {
 	top: 200px;
 	position: absolute;
+	padding-bottom: 2rem;
 }
 
 .projects-list-elem {

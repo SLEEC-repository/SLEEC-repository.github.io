@@ -1,6 +1,7 @@
 .case-studies-list {
 	top: 315px;
 	position: absolute;
+	padding-bottom: 2rem;
 }
 
 .case-studies-list-elem {
