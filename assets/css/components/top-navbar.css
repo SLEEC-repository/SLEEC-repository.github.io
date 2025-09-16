@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-	gap: 35px;
+	gap: 2.2rem;
 	top: 85px;
 	padding-left: 0;
 	margin: 0;
@@ -19,10 +19,10 @@
 .top-nav-item {
     position: relative;
     color: #6847ff;
-    font-size: calc(1.6vw + 0.4vh);
+    font-size: 2.5rem;
 	font-weight: 400;
     white-space: nowrap;
-	height: calc(2vw + 4.2vh);
+	height: 5.2rem;
     display: inline-block;
     padding-top: 3vh;
     padding-left: 20px;
