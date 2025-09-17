@@ -3,26 +3,26 @@
     width: 100%;
     display: flex;
     justify-content: center;
-	gap: 2.2rem;
-	top: 6rem;
-	padding-left: 0;
-	margin: 0;
-	background-color: white;
-	transition: top 0.3s;
-	z-index: 10;
+	  gap: 2.2rem;
+	  top: 6rem;
+	  padding-left: 0;
+	  margin: 0;
+	  background-color: white;
+	  transition: top 0.3s;
+	  z-index: 10;
 }
 
 .top-navbar a {
-	color: inherit;
+	  color: inherit;
 }
 
 .top-nav-item {
     position: relative;
     color: #6847ff;
     font-size: 2.5rem;
-	font-weight: 400;
+	  font-weight: 400;
     white-space: nowrap;
-	height: 5.2rem;
+	  height: 5.2rem;
     display: inline-block;
     padding-top: 2rem;
     padding-left: 20px;
