@@ -1,5 +1,5 @@
 .projects-list {
-	top: 200px;
+	top: 12rem;
 	position: absolute;
 	padding-bottom: 2rem;
 }
@@ -7,4 +7,3 @@
 .projects-list-elem {
 	width: 80%;
 }
-

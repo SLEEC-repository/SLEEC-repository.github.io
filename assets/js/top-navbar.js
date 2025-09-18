@@ -14,10 +14,15 @@ window.addEventListener('scroll', () => {
     updateNavbarTop();               // recompute in case font-size changed
   } else {
     // scrolling down → hide
-    document.getElementById("top-navbar").style.top = '-3.53rem';  // hide can stay in rem (doesn't depend on root size)
+    document.getElementById("top-navbar").style.top = '-0.3rem';  // hide can stay in rem (doesn't depend on root size)
   }
   prevScrollPos = cur;
 });
 
 /* Resize handling – keep the offset in sync */
 window.addEventListener('resize', updateNavbarTop);
+
+/* Resize handling – zoom / visual-viewport changes */
+if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', updateNavbarTop);
+}

@@ -1,10 +1,10 @@
 .top-description {
 	position: relative;
-    width: 100%;
+  width: 100%;
 	display: flex;
 	justify-content: center;
 	background-color: #e7d6fb;
-	top: 200px;
+	top: 12rem;
 }
 
 .top-description p {
