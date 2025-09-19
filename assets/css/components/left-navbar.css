@@ -1,0 +1,31 @@
+.left-navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4rem;
+    list-style-type: none;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.left-navbar-item {
+    position: relative;
+    color: #6847ff;
+    font-size: 2rem;
+	  font-weight: 400;
+    display: inline-block;
+    padding: 15px 20px 15px 20px;
+}
+
+.left-navbar-item-selected {
+    color: #f7dafd;
+    background-color: #6847ff;
+    border-radius: 42px;
+}
+
+.left-navbar-link {
+	  color: inherit;
+}

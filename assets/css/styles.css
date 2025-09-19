@@ -111,8 +111,19 @@
 	text-align-last: center;
 }
 
-.case-study-container {
+.case-study-sections {
+    position: absolute;
     display: flex;
-    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    top: 16rem;
+    width: 60%;
+}
+
+.case-study-sections-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
+    width: 100vw;
 }

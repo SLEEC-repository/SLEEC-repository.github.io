@@ -1,4 +1,14 @@
-document.addEventListener("DOMContentLoaded", function() {
+function syncLeftNavbarHeight() {
+    const left_navbar = document.querySelector('.left-navbar');
+    const root   = document.documentElement;
+    if (!left_navbar) return;
+    const height = navbar.getBoundingClientRect().height;
+    root.style.setProperty('--left-navbar-height', `${height}px`);
+}
+window.addEventListener('load', syncLeftNavbarHeight);
+window.addEventListener('resize', syncLeftNavbarHeight);
+
+/*document.addEventListener("DOMContentLoaded", function() {
     const sections = document.querySelectorAll("main section");
     const navLinks = document.querySelectorAll(".left-navbar-link");
 
@@ -28,3 +38,4 @@ document.addEventListener("DOMContentLoaded", function() {
     // Update on scroll
     window.addEventListener("scroll", updateActiveLink);
 });
+*/
