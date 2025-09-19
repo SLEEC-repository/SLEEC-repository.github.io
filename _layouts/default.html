@@ -3,28 +3,29 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
-	<link rel="stylesheet" href="/assets/css/globals.css" />
+	  <link rel="stylesheet" href="/assets/css/globals.css" />
     <link rel="stylesheet" href="/assets/css/styles.css" />
-	<link rel="stylesheet" href="/assets/css/components.css" />
+	  <link rel="stylesheet" href="/assets/css/components.css" />
   </head>
   <body>
-	<div class="logo">
-      <img src="/assets/images/logo.png" alt="Logo" />
+	  <div class="logo">
+      <img src="/assets/images/logo.png" alt="SLEEC Logo" />
       <div></div>
     </div>
-	<ul id="top-navbar" class="top-navbar">
-	  <li class="{% if page.title == 'Info' %}top-nav-item selected{% else %}top-nav-item{% endif %}"><a href="/">Info</a></li>
-	  <li class="{% if page.title == 'Case Studies' %}top-nav-item selected{% else %}top-nav-item{% endif %}"><a href="/case-studies.html">Case Studies</a></li>
-	  <li class="{% if page.title == 'Team' %}top-nav-item selected{% else %}top-nav-item{% endif %}"><a href="/team.html">Team</a></li>
-	  <li class="{% if page.title == 'Projects' %}top-nav-item selected{% else %}top-nav-item{% endif %}"><a href="/projects.html">Projects</a></li>
-	  <li class="{% if page.title == 'Publications' %}top-nav-item selected{% else %}top-nav-item{% endif %}"><a href="/publications.html">Publications</a></li>
-	  <li class="{% if page.title == 'Tutorials' %}top-nav-item selected{% else %}top-nav-item{% endif %}"><a href="/tutorials.html">Tutorials</a></li>
-	</ul>
-	<div id="header" class="header">
+    <nav>
+	    <ul id="top-navbar" class="top-navbar">
+	      <li class="{% if page.title == 'Info' %}top-navbar-item top-navbar-item-selected{% else %}top-navbar-item{% endif %}"><a class="top-navbar-link" href="/">Info</a></li>
+	      <li class="{% if page.title == 'Case Studies' %}top-navbar-item top-navbar-item-selected{% elsif page.layout == 'case-study'%}top-navbar-item top-navbar-item-selected{% else %}top-navbar-item{% endif %}"><a class="top-navbar-link" href="/case-studies.html">Case Studies</a></li>
+	      <li class="{% if page.title == 'Team' %}top-navbar-item top-navbar-item-selected{% else %}top-navbar-item{% endif %}"><a class="top-navbar-link" href="/team.html">Team</a></li>
+	      <li class="{% if page.title == 'Projects' %}top-navbar-item top-navbar-item-selected{% else %}top-navbar-item{% endif %}"><a class="top-navbar-link" href="/projects.html">Projects</a></li>
+	      <li class="{% if page.title == 'Publications' %}top-navbar-item top-navbar-item-selected{% else %}top-navbar-item{% endif %}"><a class="top-navbar-link" href="/publications.html">Publications</a></li>
+	      <li class="{% if page.title == 'Tutorials' %}top-navbar-item top-navbar-item-selected{% else %}top-navbar-item{% endif %}"><a class="top-navbar-link" href="/tutorials.html">Tutorials</a></li>
+	    </ul>
+    </nav>
+	  <div class="header">
       <div class="title">SLEEC Repository</div>
     </div>
-	{{ content }}
+	  {{ content }}
   </body>
+  <script src="/assets/js/top-navbar.js"></script>
 </html>
-
-<script src="/assets/js/top-navbar.js"></script>

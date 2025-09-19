@@ -12,11 +12,7 @@
 	  z-index: 10;
 }
 
-.top-navbar a {
-	  color: inherit;
-}
-
-.top-nav-item {
+.top-navbar-item {
     position: relative;
     color: #6847ff;
     font-size: 2.5rem;
@@ -30,9 +26,12 @@
     margin-top: -1.4vh;
 }
 
-.top-nav-item.selected {
+.top-navbar-item-selected {
     color: #f7dafd;
     background-color: #6847ff;
     border-radius: 0 0 42px 42px;
 }
 
+.top-navbar-link {
+	  color: inherit;
+}

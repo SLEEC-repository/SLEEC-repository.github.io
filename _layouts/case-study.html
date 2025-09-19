@@ -3,13 +3,24 @@ layout: default
 title: Case Study
 ---
 
-<ul class="left-navbar">
-  <li class="left-nav-item selected">Description</li>
-  <li class="left-nav-item">Characteristics</li>
-  <li class="left-nav-item">Normative<br />Requirements</li>
-  <li class="left-nav-item">Formalised<br />Requirements</li>
-</ul>
-<img class="selector" src="/assets/images/selector.svg" />
-<script src="left-navbar.js"></script>
+<div class="case-study-container">
+  <nav>
+    <ul class="left-navbar">
+      <li class="left-navbar-item left-navbar-item-selected"><a class="left-navbar-link" href="#description">Description</a></li>
+      <li class="left-navbar-item"><a class="left-navbar-link" href="#characteristics">Characteristics</a></li>
+      <li class="left-navbar-item"><a class="left-navbar-link" href="#normative-requirements">Normative<br />Requirements</a></li>
+      <li class="left-navbar-item"><a class="left-navbar-link" href="#formalised-requirements">Formalised<br />Requirements</a></li>
+    </ul>
+  </nav>
 
-{{ content }}
+  <main>
+    <section id="description">Description</section>
+    <section id="characteristics">Characteristics</section>
+    <section id="normative-requirements">Normative Requirements</section>
+    <section id="formalised-requirements">Formalised Requirements</section>
+  </main>
+</div>
+
+<!--
+    <script src="/assets/js/left-navbar.js"></script>
+    -->

@@ -19,7 +19,7 @@
     font-size: 40px;
 }
 
-.left-navbar {
+.left-navbar-old {
     position: fixed;
     display: flex;
     justify-content: flex-start;
@@ -50,6 +50,16 @@
     top: 367px;
     left: 10px;
 }
+
+
+
+
+
+
+
+
+
+
 
 .publications-lists-container {
 	position: relative;
@@ -101,3 +111,8 @@
 	text-align-last: center;
 }
 
+.case-study-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
