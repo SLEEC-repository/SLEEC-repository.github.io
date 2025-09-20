@@ -1,0 +1,40 @@
+.toggle-switch {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: ##f7dafd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-text {
+    font-size: 18px;
+    color: #6847ff;
+    transition: opacity 0.3s;
+}
+
+.toggle-input:checked + .toggle-label {
+    background-color: ##f7dafd;
+}
+
+.toggle-input:checked + .toggle-label .toggle-text:first-child {
+    opacity: 0;
+}
+
+.toggle-input:checked + .toggle-label .toggle-text:last-child {
+    opacity: 1;
+}

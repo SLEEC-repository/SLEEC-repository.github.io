@@ -1,4 +1,5 @@
 @import "components/case-studies-list.css";
+@import "components/case-study-sections.css";
 @import "components/complex-list.css";
 @import "components/header.css";
 @import "components/left-navbar.css";
@@ -8,4 +9,4 @@
 @import "components/top-description.css";
 @import "components/logo.css";
 @import "components/publications-list.css";
-
+@import "components/toggle.css";

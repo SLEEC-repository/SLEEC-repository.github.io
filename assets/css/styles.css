@@ -10,7 +10,7 @@
 .case-studies-page {
     display: flex;
     justify-content: flex-start;
-	align-items: center;
+	  align-items: center;
     flex-direction: column;
 }
 
@@ -116,8 +116,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    top: 16rem;
+    top: 12rem;
     width: 60%;
+    text-align: justify;
+	  text-align-last: center;
 }
 
 .case-study-sections-container {
