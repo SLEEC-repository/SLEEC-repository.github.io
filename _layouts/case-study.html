@@ -50,18 +50,34 @@ title: Case Study
         PAL Robotics constructed the first prototype of a novel robotic arm featuring new sensors and capabilities to adhere to the standards of industrial and personal care robotics. Cutting-edge electronics and actuators have been applied that allowed it to implement more advanced control functions (e.g, force control).Together with the application of brakes, they improved the security features of the TIAGo arm to be able to collaborate closely with humans. The new arm complies with the expected levels of security and robustness. The capabilities of this new arm are tailored for applications involving human-robot interaction. On the one hand, the torque sensing and Ethercat bus allow for superior low-level closed-loop torque control. This allows the full control of the arm in effort mode, which makes the arm compliant. Namely, the control architecture can be modified at a low level by emulating a spring at the joint level, and this permits to use the robot exactly as it was used before, but with this new compliant feature, and not losing any accuracy. All standard robot movements can now be performed safely so that any potential collisions, either with the robot or any external entity, would not harm the human or the robot. On the other hand, there are breaks also at joint level. In the case there was any misuse of the robot, or even the emergency stop was activated, the arm would not fall but maintain position. Hence, as a direct consequence of these two features of the arm, a layer in safety of the interaction between machine and human has been added, without losing any of the previous capabilities of the robot.
         <br /><br />
         TIAGo is also capable of generating a semantic map of an apartment, learning about an object or location, and executing general-purpose tasks as instructed by a user through its human-robot interaction, navigation, and robot-object interaction abilities. The TIAGo knowledge repository consists of a semantic map of the user's surroundings, with the positions of objects specified at particular sites. This semantic map is formulated using the existing ROS (The Robot Operating System) Navigation Stack functionality, after mapping the user's environment and/or inputting the details. The semantic map is devised to be as reusable as possible with custom types of objects with various attributes, thereby enabling TIAGo to hold a variety of household items like furniture, utensils, and meal preparation ingredients. This approach is embodied in a customised middleware that captures and processes information broadcasted to ROS topics, incorporating it into a knowledge store containing the domain models needed for validation and adaptation.
-        <h2>Normative requirements</h2>
-        <div class="toggle-switch">
-          <input type="checkbox" id="toggle" class="toggle-input">
-          <label for="toggle" class="toggle-label">
-            <span class="toggle-text">Before</span>
-            <span class="toggle-text">After</span>
-          </label>
-        </div>
       </p>
     </section>
-    <section id="normative-requirements">Normative Requirements</section>
-    <section id="formalised-requirements">Formalised Requirements</section>
+    <section id="normative-requirements">      
+      <h2>Normative requirements in natural language</h2>
+      <div class="toggle">
+        <input type="radio" id="before" name="normative-toggle" checked>
+        <label for="before">Before</label>
+
+        <input type="radio" id="after" name="normative-toggle">
+        <label for="after">After</label>
+      </div>
+      <p>Normative requirements in natural language, before and after using N-Tool to correct requirements.
+        <br /><br />
+        [Table]</p>
+    </section>
+    <section id="formalised-requirements">
+      <h2>Formalised requirements in natural language</h2>
+      <div class="toggle">
+        <input type="radio" id="sleec-tk" name="formalised-toggle" checked>
+        <label for="sleec-tk">SLEEC-TK</label>
+
+        <input type="radio" id="legos-sleec" name="formalised-toggle">
+        <label for="legos-sleec">LEGOS-SLEEC</label>
+      </div>
+      <p>Normative requirements in natural language, before and after using N-Tool to correct requirements.
+        <br /><br />
+        [Table]</p>
+    </section>
   </main>
 
   <script src="/assets/js/left-navbar.js"></script>

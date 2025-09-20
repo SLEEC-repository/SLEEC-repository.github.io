@@ -1,40 +1,56 @@
-.toggle-switch {
-    position: relative;
-    width: 200px;
-    height: 50px;
-    border-radius: 25px;
-    background-color: ##f7dafd;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+/* -------------------------------------------------
+     Center the whole group of toggles
+   ------------------------------------------------- */
+.wrapper {
+    display: flex;
+    flex-direction: column;      /* stack toggles vertically */
+    align-items: center;         /* centre each toggle */
+    gap: 1.5rem;                 /* space between toggles */
+    padding: 2rem;
 }
 
-.toggle-input {
+/* -------------------------------------------------
+     Toggle – grid layout gives equal columns
+   ------------------------------------------------- */
+.toggle {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    width: max-content;
+    border: 2px solid #f7dafd;
+    border-radius: 42px;
+    overflow: hidden;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.toggle input {
     display: none;
 }
 
-.toggle-label {
+.toggle label {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 100%;
-    padding: 0 10px;
+    justify-content: center;
+    padding: 0.5rem 1rem;
     cursor: pointer;
-    transition: background-color 0.3s;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #6947ff;
+    transition: background-color 0.2s, outline 0.2s;
+    outline: 2px solid transparent;
 }
 
-.toggle-text {
-    font-size: 18px;
-    color: #6847ff;
-    transition: opacity 0.3s;
+.toggle label:first-of-type {
+    border-top-left-radius: 42px;
+    border-bottom-left-radius: 42px;
 }
 
-.toggle-input:checked + .toggle-label {
-    background-color: ##f7dafd;
+.toggle label:last-of-type {
+    border-top-right-radius: 42px;
+    border-bottom-right-radius: 42px;
 }
 
-.toggle-input:checked + .toggle-label .toggle-text:first-child {
-    opacity: 0;
-}
-
-.toggle-input:checked + .toggle-label .toggle-text:last-child {
-    opacity: 1;
+.toggle input:checked + label {
+    background: #f7dafd;
+    outline: 2px solid #f7dafd;
 }
