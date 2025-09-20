@@ -54,3 +54,21 @@
     background: #f7dafd;
     outline: 2px solid #f7dafd;
 }
+
+/* -------------------------------------------------
+   Content-switching rules
+   ------------------------------------------------- */
+/* hide every content block by default */
+.toggle-content {
+    display: none;
+}
+
+/* when the first radio is checked, show the first block */
+.toggle input[id$="-opt1"]:checked ~ .content-wrapper .opt1 {
+    display: block;
+}
+
+/* when the second radio is checked, show the second block */
+.toggle input[id$="-opt2"]:checked ~ .content-wrapper .opt2 {
+    display: block;
+}
